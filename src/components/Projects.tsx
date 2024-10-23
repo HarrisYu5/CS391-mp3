@@ -1,6 +1,12 @@
 import React, { useState } from "react";
+import { useEffect } from "react";
 
 const Projects: React.FC = () => {
+
+    useEffect(() => {
+        document.title = "Calculator | Resume";
+    }, []);
+
     const [a, setA] = useState<string>("");
     const [b, setB] = useState<string>("");
     const [result, setResult] = useState<string>("");

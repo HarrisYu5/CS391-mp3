@@ -1,6 +1,12 @@
 import React from "react";
+import { useEffect } from "react";
 
 const Employment: React.FC = () => {
+
+    useEffect(() => {
+        document.title = "Employment | Resume";
+    }, []);
+
     return (
         <main>
             <div id="jobs">

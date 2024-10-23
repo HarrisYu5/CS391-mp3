@@ -1,7 +1,12 @@
 import React from "react";
 import buImage from "../assets/bu.jpg";
+import { useEffect } from "react";
 
 const Education: React.FC = () => {
+
+    useEffect(() => {
+        document.title = "Education | Resume";
+    }, []);
     return (
         <main>
             <img id="bu" src={buImage} alt="Pic of BU campus at night" />

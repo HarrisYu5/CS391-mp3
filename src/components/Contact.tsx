@@ -1,6 +1,10 @@
 import React from "react";
+import { useEffect } from "react";
 
 const Contact: React.FC = () => {
+    useEffect(() => {
+        document.title = "Contact | Resume";
+    }, []);
     return (
         <main>
             <h2>Contact</h2>

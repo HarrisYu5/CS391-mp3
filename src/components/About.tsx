@@ -1,10 +1,17 @@
 import React from "react";
+import { useEffect } from "react";
+
 import fishImage from "../assets/fish.jpg";
 import hikeImage from "../assets/hike.jpg";
 import mushroomImage from "../assets/mushroom.jpg";
 const About: React.FC = () => {
+    
+    useEffect(() => {
+        document.title = "About | Resume";
+    }, []);
     return (
         <main>
+            <title>About me</title>
             <h2>Who am I?</h2>
             <p>I was born in Mainland China, and grew up in Hongkong. Ever since I was little, the outdoor has always been a part of me. I loved fishing, hiking, and foraging.</p>
 
