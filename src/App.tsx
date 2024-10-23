@@ -1,6 +1,5 @@
 import React from "react";
-import { createBrowserRouter, RouterProvider, Route, Router, Outlet } from "react-router-dom";
-//import { Link } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
